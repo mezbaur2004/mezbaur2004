@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Mezbaur Are Rafi  
 
-I'm a **Full-Stack Developer** focused on building scalable and user-centric web applications.  
+I'm a **Full-Stack Developer** focused on building scalable web applications.  
 I work primarily with the **MERN stack** and **PostgreSQL**, and I have hands-on experience integrating external APIs like **Google OAuth** and **SSLCommerz**.  
 
 ### 🧠 Tech & Tools
