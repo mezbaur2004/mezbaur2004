@@ -4,14 +4,14 @@ I'm a **Full-Stack Developer** focused on building scalable web applications.
 I work primarily with the **MERN stack** and **PostgreSQL**, and I have hands-on experience integrating external APIs like **Google OAuth** and **SSLCommerz**.  
 
 ### 🧠 Tech & Tools
-**Frameworks & Libraries:** React.js, Node.js, Express.js, Bootstrap  
+**Frameworks & Libraries:** React.js, Next.js, Node.js, Express.js, Bootstrap, Tailwind 
 **Databases:** MongoDB (Mongoose), PostgreSQL  
-**Deployment:** Vercel, Render, Amazon VPS  
+**Deployment:** Vercel, Render 
 **Tools:** GitHub, Postman  
 
 ### 🚀 Featured Projects
 - 🛒 [Fulkopi](https://fulkopi-frontend.vercel.app/) — Full-featured e-commerce platform with Google OAuth & SSLCommerz integration  
-- 💼 [Portfolio](https://mezbaur.vercel.app/) — Personal portfolio showcasing my projects and skills  
+- 📦 [Inventory](https://inventory-frontend-mezbaur.vercel.app/) — User based Inventory management system with strong data consistancy
 
 ### 📫 Connect
 - 📧 **Email:** [mezbaur2004@gmail.com](mailto:mezbaur2004@gmail.com)  
