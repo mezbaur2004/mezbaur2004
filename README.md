@@ -4,9 +4,9 @@ I'm a **Full-Stack Developer** focused on building scalable web applications.
 I work primarily with the **MERN stack** and **PostgreSQL**, and I have hands-on experience integrating external APIs like **Google OAuth** and **SSLCommerz**.  
 
 ### 🧠 Tech & Tools
-**Frameworks & Libraries:** React.js, Next.js, Node.js, Express.js, Bootstrap, Tailwind 
+**Frameworks & Libraries:** React.js, Next.js, Node.js, Express.js, Bootstrap, Tailwind  
 **Databases:** MongoDB (Mongoose), PostgreSQL  
-**Deployment:** Vercel, Render 
+**Deployment:** Vercel, Render  
 **Tools:** GitHub, Postman  
 
 ### 🚀 Featured Projects
