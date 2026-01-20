@@ -7,8 +7,8 @@ I work primarily with the **MERN stack**, and I have hands-on experience integra
 ### 🧠 Tech & Tools
 **Frameworks & Libraries:** React.js, Next.js, Node.js, Express.js, Bootstrap, Tailwind  
 **Databases:** MongoDB (Mongoose), PostgreSQL  
-**Deployment:** Vercel, Render  
-**Tools:** GitHub, Postman  
+**Deployment:** Vercel, Render, vps
+**Tools:** GitHub, Postman, linux
 
 ### 🚀 Featured Projects
 - 🛒 [Fulkopi](https://fulkopi-frontend.vercel.app/) — Full-featured e-commerce platform with Google OAuth & SSLCommerz integration  
