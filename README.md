@@ -6,10 +6,10 @@ Build and maintain production web applications, LMS, and e-commerce platforms. W
 
 ## Experience
 
-**Assistant Programmer · Pedago Academy** · Jan 2026 – present
+**Assistant Programmer · Pedago Academy** · Jan 2026 – present<br>
 Primary in-house software engineer. Administer the production Moodle LMS, maintain the WordPress/WooCommerce platform, build Node.js integrations for payments, authentication, and automation, and run the Linux VPS infrastructure: deployments, Nginx, PHP-FPM, SSL/TLS, backups, and monitoring. Authored 20+ technical documents, including SOPs, server architecture, deployment guides, and disaster recovery plans.
 
-**Intern Software Engineer · Solution Spin Ltd** · Aug 2025 – Jan 2026
+**Intern Software Engineer · Solution Spin Ltd** · Aug 2025 – Jan 2026<br>
 Worked with senior engineers on frontend and backend features for production MERN applications, including React routing, Redux Toolkit, form validation, REST APIs, and code reviews.
 
 ## Stack
