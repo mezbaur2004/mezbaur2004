@@ -71,7 +71,7 @@ REST API and React/Redux dashboard to manage products, brands, categories, suppl
 | Area | Technologies |
 |---|---|
 | Languages | JavaScript (ES6+), TypeScript, SQL, Python, C, C++ |
-| Backend | Node.js, Express.js, REST APIs, JWT, OAuth, WebSockets |
+| Backend | Node.js, Express.js, REST APIs, JWT, OAuth |
 | Integrations | Shopify Admin API, SSLCommerz, webhooks, third-party APIs |
 | LMS & CMS | Moodle, WordPress, WooCommerce, Shopify (Liquid) |
 | Databases | MongoDB (Mongoose), MariaDB/MySQL, PostgreSQL |
