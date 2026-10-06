@@ -2,7 +2,7 @@
 
 **Software Engineer** · Dhaka, Bangladesh
 
-Build and maintain production web applications, LMS, and e-commerce platforms. Work across Node.js/TypeScript backends, payment and third-party integrations, Moodle and WordPress/WooCommerce customization, and Linux server administration, from requirements through deployment, documentation, and production support.
+I connect the systems an organization already runs (payment gateways, Shopify, Moodle, WordPress) and keep the data moving between them correct in production. Mostly Node.js and TypeScript; inside Moodle and WordPress, whatever the platform requires. I also run the Linux servers those systems live on.
 
 ## Experience
 
@@ -11,6 +11,60 @@ Primary in-house software engineer. Administer the production Moodle LMS, mainta
 
 **Intern Software Engineer · Solution Spin Ltd** · Aug 2025 – Jan 2026<br>
 Worked with senior engineers on frontend and backend features for production MERN applications, including React routing, Redux Toolkit, form validation, REST APIs, and code reviews.
+
+## Selected work
+
+### Shopify SSLCommerz Payment Middleware · [repo](https://github.com/mezbaur2004/shopify-sslcommerz-middleware)
+Production Node.js/TypeScript service connecting a Shopify store to SSLCommerz through the Shopify Admin API.
+- Full payment lifecycle: custom checkout, payment initiation, IPN verification, conversion of Draft Orders to paid orders, and customer email notifications.
+- Every payment is verified with the gateway before an order is completed: status, amount within ±0.01 BDT, and transaction ID. A repeated IPN for an already-paid session is acknowledged without being processed again.
+- Verified payments are recorded as manual-payment orders, which don't incur Shopify's third-party transaction fee.
+- A wake-up request sent when the customer opens checkout hides free-tier cold starts, keeping hosting cost at $0.
+
+`Node.js` `TypeScript` `Express.js` `MongoDB` `Shopify Admin API` `SSLCommerz`
+
+### Zoom attendance for Moodle · [local_zoomattendance](https://github.com/mezbaur2004/moodle-local_zoomattendance) · [block_zoomattendance](https://github.com/mezbaur2004/moodle-block_zoomattendance)
+Turns the session data the Zoom activity plugin already stores into per-class attendance for students and teachers, without adding any Zoom API calls of its own.
+- Attendance is an interval union of join/leave segments clipped to each class window, so reconnects are never double-counted.
+- Class rosters are frozen when a class ends, so later enrolment, role or group changes can't rewrite past attendance.
+- Manual corrections (linking unmatched Zoom identities, setting class windows, excluding classes) are permission-checked and logged; teachers can't exclude classes they missed.
+- PHPUnit and Behat tests, CI on Moodle 4.1–5.0 with PostgreSQL and MariaDB.
+
+Designed, reviewed and tested by me; the implementation was written with AI assistance (Claude).
+
+`Moodle` `PostgreSQL` `MariaDB` `GitHub Actions`
+
+### Moodle Patch Manager · [local_patchmanager](https://github.com/mezbaur2004/moodle-local-patchmanager) · [block_patchmanager](https://github.com/mezbaur2004/moodle-block_patchmanager) · [local_zoomcustom](https://github.com/mezbaur2004/moodle-local-zoomcustom)
+Moodle plugins that apply and track source patches to third-party plugins on a production site.
+- Patching with pristine backups, dry runs, restore and reapply, and an audit history. A CLI-first workflow, so the web server never needs write access to code.
+- Scheduled patch-state checks, reported through Moodle's Check API and a dashboard block.
+- A first pack that fixes mod_zoom's duration-based grading and pauses Zoom's report task until the fix is verified.
+
+Designed, reviewed and tested by me; the implementation was written with AI assistance (Claude).
+
+`Moodle` `Linux`
+
+### Jolly Learning Bangladesh: Shopify store
+Independently developed and launched the organization's production store, covering store setup, Liquid theme customization, product configuration, and SEO. Integrated local payments through the middleware above. Received customer inquiries and completed live payments before any marketing campaign.
+
+`Shopify` `Liquid` `JavaScript`
+
+### Pedago Academy: Moodle LMS & WordPress/WooCommerce
+Maintain the production Moodle LMS and WordPress/WooCommerce platform: plugin evaluation and feature work, production debugging through logs and SQL, and SSL and backup management on the VPS.
+
+`Moodle` `WordPress` `WooCommerce` `MariaDB` `Nginx` `Linux`
+
+## Personal projects
+
+### Fulkopi: MERN e-commerce platform · [live](https://fulkopi-frontend.vercel.app/) · [frontend](https://github.com/mezbaur2004/fulkopiFrontend) · [backend](https://github.com/mezbaur2004/fulkopiBackend)
+Full-stack store with Google OAuth and JWT authentication, role-based access control, an admin dashboard, and SSLCommerz checkout.
+
+`MongoDB` `Express.js` `React.js` `Node.js` `Redux Toolkit`
+
+### Inventory Management System · [live](https://inventory-frontend-mezbaur.vercel.app/) · [frontend](https://github.com/mezbaur2004/inventoryFrontend) · [backend](https://github.com/mezbaur2004/inventoryBackend)
+REST API and React/Redux dashboard to manage products, brands, categories, suppliers, customers, purchases, sales, returns, and expenses. A purchase, sale or return and its line items are written and deleted in one MongoDB transaction. Date-range reports and OTP password recovery.
+
+`React.js` `Redux Toolkit` `Express.js` `MongoDB`
 
 ## Stack
 
@@ -22,51 +76,8 @@ Worked with senior engineers on frontend and backend features for production MER
 | LMS & CMS | Moodle, WordPress, WooCommerce, Shopify (Liquid) |
 | Databases | MongoDB (Mongoose), MariaDB/MySQL, PostgreSQL |
 | Infrastructure | Linux VPS, Nginx, PHP-FPM, SSL/TLS, backup & disaster recovery |
-| Tooling & deployment | Git, GitHub, Postman, Vercel, Render |
+| Tooling & deployment | Git, GitHub, GitHub Actions, Postman, Vercel, Render |
 | Frontend | React.js, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Bootstrap |
-
-## Featured projects
-
-### Shopify SSLCommerz Payment Middleware · [repo](https://github.com/mezbaur2004/shopify-sslcommerz-middleware)
-Engineered a production Node.js/TypeScript service connecting Shopify to SSLCommerz through the Shopify Admin API.
-- Built the full payment lifecycle: custom checkout, payment initiation, IPN verification, conversion of Draft Orders to paid orders, and customer email notifications.
-- Implemented payment verification: status check, amount matching within ±0.01 BDT, and transaction ID integrity check, plus Helmet, HPP, rate limiting, and input sanitization.
-- Processed verified payments as manual orders, eliminating Shopify's 2% third-party transaction fee.
-- Designed a wake-up request that hides free-tier cold starts, keeping hosting cost at $0.
-
-`Node.js` `TypeScript` `Express.js` `MongoDB` `Shopify Admin API` `SSLCommerz`
-
-### Jolly Learning Bangladesh: Shopify store
-Independently developed and launched the organization's production store, covering store setup, Liquid theme customization, product configuration, and SEO. Integrated local payments through the middleware above. Received customer inquiries and completed live payments before any marketing campaign.
-
-`Shopify` `Liquid` `JavaScript`
-
-### Moodle Patch Manager · [local_patchmanager](https://github.com/mezbaur2004/moodle-local-patchmanager) · [block_patchmanager](https://github.com/mezbaur2004/moodle-block_patchmanager) · [local_zoomcustom](https://github.com/mezbaur2004/moodle-local-zoomcustom)
-Built Moodle plugins that apply and track source patches to third-party plugins on a production site.
-- Implemented patching with pristine backups, dry runs, restore and reapply, and an audit history. Designed a CLI-first workflow, so the web server never needs write access to code.
-- Added scheduled patch-state checks, reported through Moodle's Check API and a dashboard block.
-- Shipped a first pack that fixes mod_zoom's duration-based grading and pauses Zoom's report task until the fix is verified.
-
-`Moodle` `Linux`
-
-## Platform maintenance
-
-### Pedago Academy: Moodle LMS & WordPress/WooCommerce
-Maintain the production Moodle LMS and WordPress/WooCommerce platform: plugin evaluation and feature work, production debugging through logs and SQL, and SSL and backup management on the VPS.
-
-`Moodle` `WordPress` `WooCommerce` `MariaDB` `Nginx` `Linux`
-
-## Personal projects
-
-### Fulkopi: MERN e-commerce platform · [live](https://fulkopi-frontend.vercel.app/) · [frontend](https://github.com/mezbaur2004/fulkopiFrontend) · [backend](https://github.com/mezbaur2004/fulkopiBackend)
-Built a full-stack store with Google OAuth and JWT authentication, role-based access control, an admin dashboard, SSLCommerz checkout, and a Docker-ready backend.
-
-`MongoDB` `Express.js` `React.js` `Node.js` `Redux Toolkit`
-
-### Inventory Management System · [live](https://inventory-frontend-mezbaur.vercel.app/) · [frontend](https://github.com/mezbaur2004/inventoryFrontend) · [backend](https://github.com/mezbaur2004/inventoryBackend)
-Built a REST API and React/Redux dashboard to manage products, brands, categories, suppliers, customers, purchases, sales, returns, and expenses. Added date-range reports and OTP password recovery.
-
-`React.js` `Redux Toolkit` `Express.js` `MongoDB`
 
 ## Connect
 
