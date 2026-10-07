@@ -2,7 +2,7 @@
 
 **Software Engineer** · Dhaka, Bangladesh · [mezbaur.vercel.app](https://mezbaur.vercel.app) · [LinkedIn](https://www.linkedin.com/in/mezbaur2004) · [mezbaur2004@gmail.com](mailto:mezbaur2004@gmail.com)
 
-I connect the systems an organization already runs (payment gateways, Shopify, Moodle, WordPress) and keep the data moving between them correct in production. Mostly Node.js and TypeScript; inside Moodle and WordPress, whatever the platform requires. I also run the Linux servers those systems live on.
+Linux servers, backend services and the integrations between them: I connect Shopify, Moodle, WordPress and payment gateways, and make sure the data moving through them stays correct in production. Mostly Node.js and TypeScript, plus whatever Moodle and WordPress require.
 
 ## Experience
 
