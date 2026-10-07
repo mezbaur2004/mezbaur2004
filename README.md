@@ -1,6 +1,27 @@
-# Mezbaur Are Rafi
+<h1 align="center">Mezbaur Are Rafi</h1>
 
-**Software Engineer** · Dhaka, Bangladesh · [mezbaur.vercel.app](https://mezbaur.vercel.app) · [LinkedIn](https://www.linkedin.com/in/mezbaur2004) · [mezbaur2004@gmail.com](mailto:mezbaur2004@gmail.com)
+<p align="center">
+  <b>Software Engineer</b> · Dhaka, Bangladesh<br>
+  <a href="https://mezbaur.vercel.app">mezbaur.vercel.app</a> · <a href="https://www.linkedin.com/in/mezbaur2004">LinkedIn</a> · <a href="mailto:mezbaur2004@gmail.com">mezbaur2004@gmail.com</a>
+</p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/linux/linux-original.svg" width="36" height="36" alt="Linux" title="Linux">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nginx/nginx-original.svg" width="36" height="36" alt="Nginx" title="Nginx">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" title="Node.js">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" title="TypeScript">
+  <img src="https://cdn.simpleicons.org/express/8A8A8A" width="36" height="36" alt="Express" title="Express">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" title="MongoDB">
+  <img src="https://cdn.simpleicons.org/mariadb/C0765A" width="36" height="36" alt="MariaDB" title="MariaDB">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="PostgreSQL" title="PostgreSQL">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/moodle/moodle-original.svg" width="36" height="36" alt="Moodle" title="Moodle">
+  <img src="https://cdn.simpleicons.org/wordpress/3858E9" width="36" height="36" alt="WordPress" title="WordPress">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/woocommerce/woocommerce-original.svg" width="36" height="36" alt="WooCommerce" title="WooCommerce">
+  <img src="https://cdn.simpleicons.org/shopify/95BF47" width="36" height="36" alt="Shopify" title="Shopify">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="36" height="36" alt="React" title="React">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" title="Next.js">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/githubactions/githubactions-original.svg" width="36" height="36" alt="GitHub Actions" title="GitHub Actions">
+</p>
 
 Linux servers, backend services and the integrations between them: I connect Shopify, Moodle, WordPress and payment gateways, and make sure the data moving through them stays correct in production. Mostly Node.js and TypeScript, plus whatever Moodle and WordPress require.
 
