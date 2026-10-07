@@ -10,12 +10,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nginx/nginx-original.svg" width="36" height="36" alt="Nginx" title="Nginx">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" title="Node.js">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" title="TypeScript">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/express/express-original.svg" width="36" height="36" alt="Express" title="Express">
+  <img src="https://cdn.simpleicons.org/express/8A8A8A" width="36" height="36" alt="Express" title="Express">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" title="MongoDB">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mariadb/mariadb-original.svg" width="36" height="36" alt="MariaDB" title="MariaDB">
+  <img src="https://cdn.simpleicons.org/mariadb/C0765A" width="36" height="36" alt="MariaDB" title="MariaDB">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="PostgreSQL" title="PostgreSQL">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/moodle/moodle-original.svg" width="36" height="36" alt="Moodle" title="Moodle">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/wordpress/wordpress-original.svg" width="36" height="36" alt="WordPress" title="WordPress">
+  <img src="https://cdn.simpleicons.org/wordpress/3858E9" width="36" height="36" alt="WordPress" title="WordPress">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/woocommerce/woocommerce-original.svg" width="36" height="36" alt="WooCommerce" title="WooCommerce">
   <img src="https://cdn.simpleicons.org/shopify/95BF47" width="36" height="36" alt="Shopify" title="Shopify">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="36" height="36" alt="React" title="React">
