@@ -76,7 +76,7 @@ Reported that the Zoom activity plugin records attendance for recurring meetings
 
 <sub>Moodle · PHPUnit · open source</sub>
 
-### Jolly Learning Bangladesh: Shopify store
+### [Jolly Learning Bangladesh: Shopify store](https://www.jollylearningbd.com/)
 
 Independently developed and launched the organization's production store: store setup, Liquid theme customization, product configuration, and SEO. Orders come in by cash on delivery, with SSLCommerz checkout built through the middleware above and ready for a live merchant account. Workshop registrations take manual bKash/Nagad payments; the first paid registrations came through organic search, before any marketing campaign.
 
