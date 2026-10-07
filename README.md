@@ -15,10 +15,10 @@ Worked with senior engineers on frontend and backend features for production MER
 ## Selected work
 
 ### Shopify SSLCommerz Payment Middleware · [repo](https://github.com/mezbaur2004/shopify-sslcommerz-middleware)
-Production Node.js/TypeScript service connecting a Shopify store to SSLCommerz through the Shopify Admin API.
+Node.js/TypeScript service connecting a Shopify store to SSLCommerz through the Shopify Admin API. Deployed alongside the live store and tested end to end against the SSLCommerz sandbox; the online-payment option stays hidden until the organization buys a live merchant account.
 - Full payment lifecycle: custom checkout, payment initiation, IPN verification, conversion of Draft Orders to paid orders, and customer email notifications.
 - Every payment is verified with the gateway before an order is completed: status, amount within ±0.01 BDT, and transaction ID. A repeated IPN for an already-paid session is acknowledged without being processed again.
-- Verified payments are recorded as manual-payment orders, which don't incur Shopify's third-party transaction fee.
+- Verified payments are recorded as manual-payment orders, so they don't incur Shopify's third-party transaction fee.
 - A wake-up request sent when the customer opens checkout hides free-tier cold starts, keeping hosting cost at $0.
 
 `Node.js` `TypeScript` `Express.js` `MongoDB` `Shopify Admin API` `SSLCommerz`
@@ -44,8 +44,13 @@ Designed, reviewed and tested by me; the implementation was written with AI assi
 
 `Moodle` `Linux`
 
+### Upstream contribution: cumulative grading for recurring Zoom meetings · [PR #730](https://github.com/jrchamp/moodle-mod_zoom/pull/730) · [issue #728](https://github.com/jrchamp/moodle-mod_zoom/issues/728)
+Reported that mod_zoom records attendance for recurring meetings but never writes grades for it, and argued for fixing it rather than removing grading for recurring meetings. The maintainer agreed to a focused PR. The PR grades each occurrence separately and sums them, covers both grading methods, leaves existing activities unchanged, and passes the plugin's CI; it is in review.
+
+`Moodle` `PHPUnit` `open source`
+
 ### Jolly Learning Bangladesh: Shopify store
-Independently developed and launched the organization's production store, covering store setup, Liquid theme customization, product configuration, and SEO. Integrated local payments through the middleware above. Received customer inquiries and completed live payments before any marketing campaign.
+Independently developed and launched the organization's production store, covering store setup, Liquid theme customization, product configuration, and SEO. Orders come in by cash on delivery, with SSLCommerz checkout built through the middleware above and ready for a live merchant account. Workshop registrations take manual bKash/Nagad payments; the first paid registrations came through organic search, before any marketing campaign.
 
 `Shopify` `Liquid` `JavaScript`
 
