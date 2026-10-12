@@ -11,6 +11,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" title="Node.js">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" title="TypeScript">
   <img src="https://cdn.simpleicons.org/express/8A8A8A" width="36" height="36" alt="Express" title="Express">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postman/postman-original.svg" width="36" height="36" alt="Postman" title="Postman">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" title="MongoDB">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="PostgreSQL" title="PostgreSQL">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/moodle/moodle-original.svg" width="36" height="36" alt="Moodle" title="Moodle">
@@ -18,7 +19,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="36" height="36" alt="React" title="React">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" title="Next.js">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" width="36" height="36" alt="Git" title="Git">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postman/postman-original.svg" width="36" height="36" alt="Postman" title="Postman">
 </p>
 
 Linux servers, backend services and the integrations between them: I connect Shopify, Moodle, WordPress and payment gateways, and make sure the data moving through them stays correct in production. Mostly Node.js and TypeScript, plus whatever Moodle and WordPress require.
