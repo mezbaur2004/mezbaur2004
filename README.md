@@ -72,6 +72,30 @@ Turns the session data the Zoom activity plugin already stores into per-class at
 
 </details>
 
+### [Moodle leaderboard](https://github.com/mezbaur2004/moodle-leaderboard)
+
+Course activity, built for Pedago Academy, that ranks students by points from grades they can already see, so it never reveals marks early. Added automatically to every new course and works in the Moodle app.
+
+<sub>Moodle · Moodle app · PHPUnit</sub><br>
+<sub>*Designed, reviewed and tested by me; implemented with AI assistance (Claude).*</sub>
+
+<details>
+<summary>How it works</summary>
+
+- Points per mark for each activity type, configurable per site or per course; assignments submitted after the student's own due date (extension or override included) earn fewer points.
+- A grade counts only once the student could see it: hidden items, hidden categories and quiz overrides with later close dates are all respected.
+- Optional Zoom points from the attendance plugin above, so points always match the attendance reports.
+- Group-aware and anonymous modes, ties sharing a rank, and cached rankings refreshed when grades change.
+- A dry-run CLI adds leaderboards to existing courses; new, restored and copied courses get one automatically.
+
+</details>
+
+### [Jolly Learning Bangladesh: Shopify store](https://www.jollylearningbd.com/)
+
+Independently developed and launched the organization's production store: store setup, Liquid theme customization, product configuration, and SEO. Orders come in by cash on delivery, with SSLCommerz checkout built through the middleware above and ready for a live merchant account. Workshop registrations take manual bKash/Nagad payments; the first paid registrations came through organic search, before any marketing campaign.
+
+<sub>Shopify · Liquid · JavaScript</sub>
+
 ### [Moodle Patch Manager](https://github.com/mezbaur2004/moodle-local-patchmanager)
 
 Applies, verifies and rolls back source patches to third-party Moodle plugins on a production site, with a [dashboard block](https://github.com/mezbaur2004/moodle-block_patchmanager) and a first [patch pack](https://github.com/mezbaur2004/moodle-local-zoomcustom) that fixes mod_zoom's duration-based grading.
@@ -91,15 +115,9 @@ Applies, verifies and rolls back source patches to third-party Moodle plugins on
 
 ### [Upstream contribution to mod_zoom](https://github.com/jrchamp/moodle-mod_zoom/pull/730)
 
-Reported that the Zoom activity plugin records attendance for recurring meetings but never writes grades for it ([issue #728](https://github.com/jrchamp/moodle-mod_zoom/issues/728)), and argued for fixing it rather than removing the feature. The maintainer agreed to a focused PR: it grades each occurrence separately and sums them, covers both grading methods, leaves existing activities unchanged, and passes the plugin's CI. In review.
+Reported that the Zoom activity plugin records attendance for recurring meetings but never writes grades for it ([issue #728](https://github.com/jrchamp/moodle-mod_zoom/issues/728)), and proposed a fix. After discussing it with the maintainer, I opened a focused PR: it grades each occurrence separately and sums them, covers both grading methods, leaves existing activities unchanged, and passes the plugin's CI. In review.
 
 <sub>Moodle · PHPUnit · open source</sub>
-
-### [Jolly Learning Bangladesh: Shopify store](https://www.jollylearningbd.com/)
-
-Independently developed and launched the organization's production store: store setup, Liquid theme customization, product configuration, and SEO. Orders come in by cash on delivery, with SSLCommerz checkout built through the middleware above and ready for a live merchant account. Workshop registrations take manual bKash/Nagad payments; the first paid registrations came through organic search, before any marketing campaign.
-
-<sub>Shopify · Liquid · JavaScript</sub>
 
 ## Personal projects
 
