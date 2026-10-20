@@ -115,7 +115,7 @@ Applies, verifies and rolls back source patches to third-party Moodle plugins on
 
 ### [Upstream contribution to mod_zoom](https://github.com/jrchamp/moodle-mod_zoom/pull/730)
 
-Reported that the Zoom activity plugin records attendance for recurring meetings but never writes grades for it ([issue #728](https://github.com/jrchamp/moodle-mod_zoom/issues/728)), and argued for fixing it rather than removing the feature. The maintainer agreed to a focused PR: it grades each occurrence separately and sums them, covers both grading methods, leaves existing activities unchanged, and passes the plugin's CI. In review.
+Reported that the Zoom activity plugin records attendance for recurring meetings but never writes grades for it ([issue #728](https://github.com/jrchamp/moodle-mod_zoom/issues/728)), and proposed a fix. After discussing it with the maintainer, I opened a focused PR: it grades each occurrence separately and sums them, covers both grading methods, leaves existing activities unchanged, and passes the plugin's CI. In review.
 
 <sub>Moodle · PHPUnit · open source</sub>
 
