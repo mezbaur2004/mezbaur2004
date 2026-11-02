@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Software Engineer</b> · Dhaka, Bangladesh<br>
-  <a href="https://mezbaur.vercel.app">mezbaur.vercel.app</a> · <a href="https://www.linkedin.com/in/mezbaur2004">LinkedIn</a> · <a href="mailto:mezbaur2004@gmail.com">mezbaur2004@gmail.com</a>
+  <a href="https://mezbaur.vercel.app">mezbaur.vercel.app</a> · <a href="https://www.linkedin.com/in/mezbaur">LinkedIn</a> · <a href="mailto:mezbaur2004@gmail.com">mezbaur2004@gmail.com</a>
 </p>
 
 <p align="center">
