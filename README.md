@@ -27,9 +27,9 @@ Linux servers, backend services and the integrations between them: I connect Sho
 
 **Assistant Programmer · Pedago Academy** · Jan 2026 – present
 
-- Primary in-house software engineer: administer the production Moodle LMS and maintain the WordPress/WooCommerce platform, from plugin evaluation and feature work to production debugging through logs and SQL.
-- Build Node.js integrations for payments, authentication, and automation.
 - Run the Linux VPS infrastructure: deployments, Nginx, PHP-FPM, SSL/TLS, backups, and monitoring.
+- Build Node.js integrations for payments, authentication, and automation.
+- Administer the production Moodle LMS and maintain the WordPress/WooCommerce site, from plugin evaluation and feature work to production debugging through logs and SQL.
 - Authored 20+ technical documents, including SOPs, server architecture, deployment guides, and disaster recovery plans.
 
 **Intern Software Engineer · Solution Spin Ltd** · Aug 2025 – Jan 2026
